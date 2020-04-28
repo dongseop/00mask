@@ -59,7 +59,7 @@ const ListPage = () => {
       <AppBar />
 
       <List className={classes.root}>
-        {stores.map(store => <StoreItem store={store}/>)}
+        {stores.map(store => <StoreItem key={store.code} store={store}/>)}
       </List>
       <BottomNav />
     </>

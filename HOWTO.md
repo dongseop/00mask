@@ -4,6 +4,8 @@
 
 - http://data.go.kr/data/15058203/openapi.do : 공적 마스크 재고 API
 - https://app.swaggerhub.com/apis-docs/Promptech/public-mask-info/20200307-oas3#/ : 공적마스크 재고 API
+- Naver MAP API: https://www.ncloud.com/product/applicationService/maps
+- 
 
 
 
@@ -40,3 +42,7 @@
 3. Reducer / Redux / React-Redux / Redux-Thunk / Redux-Logger Store를 Provider에
 4. React-Router가지고 Page들 Switch
 5. AppBar, BottomNavigation 
+6. ListUI
+7. Map Page
+8. NaverMap --> Component
+9. Map - Redux
