@@ -7,7 +7,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import StorefrontIcon from '@material-ui/icons/Storefront';
-
+import { Link } from "react-router-dom";
 import AppBar from "../components/AppBar";
 import BottomNav from "../components/BottomNav";
 import StoreHelper from "../util/StoreHelper";
@@ -29,7 +29,11 @@ const StoreItem = ({store}) => {
   const { addr, name, stock_at } = store;
   const {color, desc } = StoreHelper(store);
   return (
-    <ListItem>
+    <ListItem
+      button = {true}
+      component = {Link}
+      to={`/stores/${store.code}`}
+    >
       <ListItemIcon>
         <StorefrontIcon style={{color}} />
       </ListItemIcon>
