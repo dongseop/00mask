@@ -46,3 +46,5 @@
 7. Map Page
 8. NaverMap --> Component
 9. Map - Redux
+10. Map에 마커 추가
+    1. https://www.iconfinder.com/iconsets/map-location-solid-style
