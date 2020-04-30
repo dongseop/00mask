@@ -1,4 +1,5 @@
 import React from "react";
+import _ from "lodash";
 import { useSelector } from "react-redux";
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
@@ -54,12 +55,13 @@ const StoreItem = ({store}) => {
 const ListPage = () => {
   const classes = useStyles();
   const stores = useSelector(state => state.stores)
+
   return (
     <>
       <AppBar />
 
       <List className={classes.root}>
-        {stores.map(store => <StoreItem key={store.code} store={store}/>)}
+        {_.map(stores, store => <StoreItem key={store.code} store={store}/>)}
       </List>
       <BottomNav />
     </>

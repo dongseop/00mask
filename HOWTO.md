@@ -48,3 +48,7 @@
 9. Map - Redux
 10. Map에 마커 추가
     1. https://www.iconfinder.com/iconsets/map-location-solid-style
+11. 맵을 움직인 다음 현재 중심에서 데이터 추가로 가져오기
+12. 리스트에서 정렬
+13. 상점 상세 페이지
+14. 맵 마커에서 상세 페이지 연결
